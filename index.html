@@ -427,6 +427,13 @@
             </a>
           </li>
         </ul>
+        </div>
+        <form action="" class="footer-form">
+          <label for="email" class="form-lable">Підпишіться на розсилку</label>
+          <input type="email" name="email" id="email" placeholder="E-mail">
+          <button type="submit" class="footer-button">Підписатися</button>
+        </form>
+        </div>
       </div>
     </div>
     </footer>
@@ -438,8 +445,26 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-      </div>
-    </div>
+      <p>Залиште свої дані, ми вам передзвонимо</p>
+      <form action="" class="modal-form">
+        <div class="modal-element">
+          <label for="name" class="modal-label">Імʼя</label>
+          <input type="text" id="name">
+        </div>
+        <div class="modal-element">
+          <label for="phone-number" class="modal-label">Телефон</label>
+          <input type="tel" id="phone-number">
+        </div>
+        <div class="modal-element">
+          <label for="mail" class="modal-label">Пошта</label>
+          <input type="email" id="mail">
+        </div>
+        <div class="modal-element">
+          <label for="сomment" class="modal-label">Коментар</label>
+          <input type="text" id="comment" placeholder="Введіть коментар">
+        </div>
+        <button type="submit">Відправити</button>
+      </form>
     <script src="./js/modal.js"></script>
   </body>
 </html>

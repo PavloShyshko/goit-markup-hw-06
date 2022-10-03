@@ -481,8 +481,14 @@
           <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
         </div>
         <div class="accept">
-          <input type="checkbox" id="accept" name="accept" required>
-          <label for="accept">Погоджуюсь з росилкою та приймаю <a href="">Умови договору</a></label>
+          <input type="checkbox" id="accept" name="accept" required class="input-accept visually-hidden">
+          <label for="accept" class="accept-label"> 
+            <div class="checkbox">
+            <svg width="11" height="8" class="modal-icon">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+          </div>Погоджуюсь з росилкою та приймаю  <span><a href="" class="link-agreements">Умови договору</a></span>
+          </label>
         </div>
         <div class="btn-wrap"><button type="submit" class="submit-button">Відправити</button></div>
       </form>

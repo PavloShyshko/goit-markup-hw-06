@@ -633,11 +633,15 @@ border-bottom: 1px solid #ececec;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  background-color: var(--secondary-background-color);
+  background-color: transparent;
+  color: var(--primary-text-color);
 }
 
 
 .footer-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 50px;
   color: var(--primary-background-color);
@@ -655,12 +659,10 @@ border-bottom: 1px solid #ececec;
   bottom: 0;
 }
 
-.footer-button::after{
-  content:"";
-  display:inline;
-  width: 10px;
-  height: 10px;
-  border: 1px solid tomato;
+.send-icon{
+  width: 24px;
+  height: 24px;
+  margin-left: 7px;
 }
 
 /*portfolio page*/
